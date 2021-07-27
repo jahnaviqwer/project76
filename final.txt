@@ -1,0 +1,15 @@
+
+SPA uses AJAX technology. That’s the set of techniques that allow  refreshing only a part of the 
+app instead of the entire web app. SPA sends an AJAX request to the server, gets JSON data 
+back from the server and renders certain parts of the web page directly in the browser.
+
+Models, Views, and Controllers. This pattern helps to achieve separation of concerns. Using 
+
+Models: Models are the objects used to retrieve and store the model state in the database.  
+Let's see an example. 
+
+View: View components show the User Interface (UI) of the applications that is created by the data model.
+
+Controllers: In MVC, controllers are also called the components. These components manage the user interaction
+ and chooses a view for displaying the UI. The main work of the controller is that it manages the query string 
+values and transfers these values to the models.
